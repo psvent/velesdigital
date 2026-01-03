@@ -20,18 +20,18 @@ export const TrustStrip: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <TrustItem 
             icon={<svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>}
-            title="Human-reviewed" 
-            description="Nothing leaves our studio without a final manual review by a professional editor." 
+            title="Ročno pregledano" 
+            description="Nič ne zapusti studia brez končnega ročnega pregleda profesionalnega urednika." 
           />
           <TrustItem 
             icon={<svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>}
-            title="Prepared for your brand" 
-            description="Visuals are enhanced to match your specific style guides and brand aesthetics." 
+            title="Pripravljeno za vašo znamko" 
+            description="Vizuali so prilagojeni vašim slogovnim smernicam in estetiki znamke." 
           />
           <TrustItem 
             icon={<svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"></path></svg>}
-            title="Preview before you pay" 
-            description="We deliver watermarked previews first. You only commit once you approve the quality." 
+            title="Predogled pred plačilom" 
+            description="Najprej dostavimo predoglede z vodnim žigom. Zavezani ste šele po potrditvi kakovosti." 
           />
         </div>
       </div>
